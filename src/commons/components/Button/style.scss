@@ -1,0 +1,96 @@
+.btn {
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #0373b2;
+  padding: 5px 20px;
+  font-family: "Roboto-Bold";
+  font-size: 12px;
+  color: #0373b2;
+  text-transform: capitalize;
+
+  &.panel-action {
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: white;
+
+    &:disabled {
+      &:hover {
+        border: 1px solid transparent;
+        background-color: transparent;
+      }
+    }
+
+    &:hover {
+      border: 1px solid white;
+    }
+
+    &:active {
+      border: 1px solid white;
+      background-color: white;
+      color: #0373b2;
+      box-shadow: none;
+    }
+  }
+
+  &.modal-primary {
+    border: 1px solid #0373b2;
+    background-color: transparent;
+    color: #0373b2;
+
+    &:active {
+      border: 1px solid #0373b2;
+      background-color: #0373b2;
+      color: white;
+    }
+
+    &:disabled {
+      color: #0373b2;
+
+      &:hover {
+        color: #0373b2;
+        background-color: transparent;
+      }
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      border: 1px solid #0373b2;
+      background-color: #0373b2;
+      color: white;                 
+    }
+  }
+
+  &.modal-secondary {
+    border: 1px solid #b51818;
+    background-color: transparent;
+    color: #b51818;
+
+    &:active {
+      border: 1px solid #b51818;
+      background-color: #b51818;
+      color: white;
+    }
+
+    &:disabled {
+      color: #b51818;
+
+      &:hover {
+        color: #b51818;
+        background-color: transparent;
+      }
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      border: 1px solid #b51818;
+      background-color: #b51818;
+      color: white;           
+    }
+  }
+}

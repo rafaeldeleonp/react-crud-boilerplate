@@ -1,0 +1,28 @@
+.form-horizontal {
+  .form-group {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .form-footer {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: #cccccc;
+    padding: 0 15px;
+
+    .form-primary-button {
+      color: white;
+      border-color: white;
+      background-color: transparent;
+    }
+
+    .form-secondary-button {
+      color: #b51818;
+      border-color: #b51818;
+      background-color: transparent;
+      margin-right: 10px;
+    }
+  }
+}

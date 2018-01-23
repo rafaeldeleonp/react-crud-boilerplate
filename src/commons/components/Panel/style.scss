@@ -1,0 +1,130 @@
+.panel {
+  min-width: 400px;
+  width: 400px;
+  min-height: 130px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+
+  &.grid {
+    width: 1000px;
+
+    .panel-heading {
+      width: 100%;
+      min-height: 65px;
+      line-height: 35px;
+
+      .panel-title {
+        text-transform: capitalize;
+      }
+    }
+
+    .panel-body {
+      height: 465px;
+    }
+  }
+
+  .panel-heading {
+    min-height: 30px;
+    height: 50px;
+    background: #0373b2;
+    border-bottom: none;
+    padding: 15px 25px;
+    
+    .panel-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: "Roboto-Bold";
+      font-size: 20px;
+      line-height: 20px;
+      color: white;
+
+      .panel-heading-actions {
+        .btn {
+          margin-right: 10px;
+        }
+      }
+    }    
+  }
+
+  .panel-body {
+    min-height: 50px;
+    padding: 0;
+
+    .panel-tab-container {
+      margin: 0;
+
+      .panel-tab-column {
+        padding: 0;
+
+        .nav-tabs {
+          height: 50px;
+          border: none;
+
+          li {
+            height: 100%;
+            width: 33.33%;
+            border-right: 1px solid rgba(0,0,0,0.07);
+            background: #0072b0;
+
+            &:first-child {
+              border-top-left-radius: 8px;
+            }
+
+            &:last-child {
+              border-top-right-radius: 8px;
+            }
+
+            &.active {
+              background-color: white;
+
+              a {
+                opacity: 1;
+                border: none;
+                fill: #999999;
+
+                g {
+                  fill: #999999;
+                }
+              }
+            }
+
+            &:hover {
+              cursor: pointer;
+            }
+
+            a {
+              width: 100%;
+              height: 100%;
+              padding: 0;
+              display: flex;
+              align-items: center;  
+              justify-content: center;   
+
+              svg {
+                width: 30px;
+                height: 30px;
+                fill: white;
+
+                g {
+                  fill: white;
+                }
+              }
+
+              &:hover {
+                opacity: 1;
+                border-color: transparent;
+                background-color: transparent;
+              }
+            }
+          }
+        }
+      }
+
+      .panel-tab-content-column {
+        padding: 15px 0 0 0;
+      }
+    }
+  }
+}

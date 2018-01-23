@@ -1,0 +1,86 @@
+.checkbox {
+  margin: 7.5px 0;
+}
+
+.checkbox-group {
+  height: 25px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+
+  .checkbox-label {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-family: 'Roboto-Bold';
+    font-weight: 300;
+    color: #333333;
+  }
+
+  &.left .checkbox-label {
+    order: 0; // flexbox order
+    margin-right: 5px;
+  }
+
+  &.right .checkbox-label {
+    order: 1; // flexbox order
+    margin-left: 10px;
+  }
+
+  svg.checkbox {
+    padding-top: 0;
+
+    // box of icon. is a <rect> element
+    .box {
+      fill: white;
+      stroke: #666666;
+      stroke-width: 2px;
+    }
+  
+    // check mark. this are two <path> element
+    .check {
+      fill: white;
+      stroke: none;
+    }
+  
+    // checked class
+    &.checked {
+  
+      .box {
+        fill: #0072b0;
+        stroke: #0072b0;
+      }
+  
+      .check {
+        fill: white;
+        stroke: none;
+      }
+  
+      &:hover, &:focus {
+  
+        .box {
+          fill: #0072b0 !important;
+          stroke: #0072b0 !important;
+        }
+  
+        .check {
+          fill: white;
+          stroke: none;
+        }
+  
+      }
+  
+    }
+  
+    &:hover, &:focus {
+      .box {
+        stroke: #0072b0;
+      }
+  
+      .check {
+        fill: white;
+        stroke: none;
+      }
+    }
+  }
+}

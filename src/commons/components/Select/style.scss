@@ -1,0 +1,93 @@
+.Select {  
+  width: 275px;
+  height: 25px;
+
+  &.is-disabled {
+    .Select-control {
+      background-color: #eeeeee;
+      opacity: 1;
+    }
+  }
+
+  &.is-focused .Select-control {
+    border-color: #0072b0 !important;
+  }
+
+  &.is-focused:not(.is-open) > .Select-control {
+    border-color: #0072b0 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    background-color: #ffffff;
+
+    .Select-value {
+      .Select-value-icon {
+        color: #0072b0;
+      }
+    }
+  }
+
+  .Select-control {
+    height: 21px;
+    line-height: 21px;
+    border-radius: 3px;
+    border: 2px solid #999999;
+
+    &:hover {
+      border-color: #0072b0;
+    }
+
+    .Select-multi-value-wrapper {
+      .Select-placeholder {
+        line-height: 21px;
+        font-family: "Roboto-Bold";
+        font-size: 12px;
+        color: #999999;
+      }
+
+      .Select-value {
+        font-family: "Roboto-Bold";
+        font-size: 12px;
+        line-height: 21px;
+      }
+
+      .Select-input {
+        height: 21px;
+
+        input {
+          padding: 0;
+          line-height: 21px;
+        }
+      }
+    }
+  } 
+  
+  .Select-menu-outer {
+    z-index: 10000;
+    text-transform: capitalize;
+    border-radius: 3px;
+    border: 2px solid #999999;
+    margin-top: 1.5px;
+
+    .Select-menu .Select-option {
+      height: 30px;
+      font-family: 'Roboto-Bold';
+      font-size: 12px;
+      color: #333333;
+      
+      &.is-selected {
+        background: #f1f3f4;
+        color: #333333;
+      }
+
+      &.is-focused {
+        color: #333333;
+      }
+
+      &.is-disabled {
+        color: #eeeeee;
+      }
+    }
+  }
+}
+
+

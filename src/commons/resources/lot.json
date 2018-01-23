@@ -1,0 +1,283 @@
+[
+  {
+    "id": 1,
+    "descripcion": "",
+    "vehicle": {
+      "vin": "JTNB11HK0J3001615",
+      "model": {
+        "description": "camry LE"
+      },
+      "year": 2007
+    },
+    "auctionId": 1,
+    "odometer": 151353,
+    "highlights": {
+      "description": "highlights"
+    },
+    "interiorColor": {
+      "description": "crema"
+    },
+    "interiorType": {
+      "description": "leather"
+    },
+    "color": {
+      "description": "blanco"
+    },
+    "engineType": {
+      "description": "2.5L"
+    },
+    "cylinders": {
+      "description": "4"
+    },
+    "drive": {
+      "description": "front-wheel drive"
+    },
+    "fuel": {
+      "description": "gas"
+    },
+    "keys": {
+      "description": "keys"
+    },
+    "user": {
+      "name": "rafael de leon"
+    },
+    "notes": "no se que poner aqui",
+    "maoPrice": 450000,
+    "mao": 500000,
+    "country": {
+      "description": "dominican republic"
+    },
+    "state": {
+      "description": "DO"
+    },
+    "city": {
+      "description": "santo domingo"
+    },
+    "salePrice": 425000,
+    "saleDate": "31/01/2018"
+  },
+  {
+    "id": 2,
+    "descripcion": "",
+    "vehicle": {
+      "model": {
+        "description": "santa FE"
+      },
+      "year": 2006
+    },
+    "auctionId": 1,
+    "odometer": 121353,
+    "highlights": {
+      "description": "bumper delantero"
+    },
+    "interiorColor": {
+      "description": "negro"
+    },
+    "interiorType": {
+      "description": "leather"
+    },
+    "color": {
+      "description": "dorada"
+    },
+    "engineType": {
+      "description": "2.5L"
+    },
+    "cylinders": {
+      "description": "4"
+    },
+    "drive": {
+      "description": "front-wheel drive"
+    },
+    "fuel": {
+      "description": "gas"
+    },
+    "keys": {
+      "description": "keys"
+    },
+    "user": {
+      "name": "rafael de leon"
+    },
+    "notes": "no se que poner aqui",
+    "maoPrice": 650000,
+    "mao": 500000,
+    "country": {
+      "description": "dominican republic"
+    },
+    "state": {
+      "description": "DO"
+    },
+    "city": {
+      "description": "santo domingo"
+    },
+    "salePrice": 550000,
+    "saleDate": "31/01/2018"
+  },
+  {
+    "id": 3,
+    "descripcion": "",
+    "vehicle": {
+      "model": {
+        "description": "mustang"
+      },
+      "year": 2015
+    },
+    "auctionId": 1,
+    "odometer": 20000,
+    "highlights": {
+      "description": "parte trasera"
+    },
+    "interiorColor": {
+      "description": "crema"
+    },
+    "interiorType": {
+      "description": "leather"
+    },
+    "color": {
+      "description": "blanco"
+    },
+    "engineType": {
+      "description": "2.5L"
+    },
+    "cylinders": {
+      "description": "4"
+    },
+    "drive": {
+      "description": "front-wheel drive"
+    },
+    "fuel": {
+      "description": "gas"
+    },
+    "keys": {
+      "description": "keys"
+    },
+    "user": {
+      "name": "rafael de leon"
+    },
+    "notes": "no se que poner aqui",
+    "maoPrice": 850000,
+    "mao": 700000,
+    "country": {
+      "description": "dominican republic"
+    },
+    "state": {
+      "description": "DO"
+    },
+    "city": {
+      "description": "santo domingo"
+    },
+    "salePrice": 725000,
+    "saleDate": "31/01/2018"
+  },
+  {
+    "id": 4,
+    "descripcion": "",
+    "vehicle": {
+      "model": {
+        "description": "camry LE"
+      },
+      "year": 2016
+    },
+    "auctionId": 1,
+    "odometer": 15000,
+    "highlights": {
+      "description": "parte trasera"
+    },
+    "interiorColor": {
+      "description": "crema"
+    },
+    "interiorType": {
+      "description": "leather"
+    },
+    "color": {
+      "description": "blanco"
+    },
+    "engineType": {
+      "description": "2.5L"
+    },
+    "cylinders": {
+      "description": "4"
+    },
+    "drive": {
+      "description": "front-wheel drive"
+    },
+    "fuel": {
+      "description": "gas"
+    },
+    "keys": {
+      "description": "keys"
+    },
+    "user": {
+      "name": "rafael de leon"
+    },
+    "notes": "no se que poner aqui",
+    "maoPrice": 1000000,
+    "mao": 875000,
+    "country": {
+      "description": "dominican republic"
+    },
+    "state": {
+      "description": "DO"
+    },
+    "city": {
+      "description": "santo domingo"
+    },
+    "salePrice": 425000,
+    "saleDate": "31/01/2018"
+  },
+  {
+    "id": 5,
+    "descripcion": "",
+    "vehicle": {
+      "model": {
+        "description": "camry LE"
+      },
+      "year": 2010
+    },
+    "auctionId": 1,
+    "odometer": 151353,
+    "highlights": {
+      "description": "parte trasera"
+    },
+    "interiorColor": {
+      "description": "crema"
+    },
+    "interiorType": {
+      "description": "leather"
+    },
+    "color": {
+      "description": "blanco"
+    },
+    "engineType": {
+      "description": "2.5L"
+    },
+    "cylinders": {
+      "description": "4"
+    },
+    "drive": {
+      "description": "front-wheel drive"
+    },
+    "fuel": {
+      "description": "gas"
+    },
+    "keys": {
+      "description": "keys"
+    },
+    "user": {
+      "name": "rafael de leon"
+    },
+    "notes": "no se que poner aqui",
+    "maoPrice": 450000,
+    "mao": 500000,
+    "country": {
+      "description": "dominican republic"
+    },
+    "state": {
+      "description": "DO"
+    },
+    "city": {
+      "description": "santo domingo"
+    },
+    "salePrice": 425000,
+    "saleDate": "31/01/2018"
+  }
+]

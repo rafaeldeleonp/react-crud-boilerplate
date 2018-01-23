@@ -1,0 +1,43 @@
+$font-base-path: '~fonts';
+
+@font-face {
+  font-family: "RobotoCondensed-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: local("RobotoCondensed-Light"), url($font-base-path + "/RobotoCondensed-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RobotoCondensed-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("RobotoCondensed-Regular"), url($font-base-path + "/RobotoCondensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RobotoCondensed-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local("RobotoCondensed-Bold"), url($font-base-path + "/RobotoCondensed-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto-Light"), url($font-base-path + "/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto-Regular"), url($font-base-path + "/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto-Bold"), url($font-base-path + "/Roboto-Bold.ttf") format("truetype");
+}
